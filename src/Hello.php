@@ -17,4 +17,9 @@ class Hello
         echo 'Hello, salliyme.'.PHP_EOL;
         echo 'This message powered by salliyme.('.static::VERSION.')'.PHP_EOL;
     }
+
+    public function version()
+    {
+        echo 'Version:'.static::VERSION.PHP_EOL;
+    }
 }
