@@ -1,0 +1,7 @@
+{
+  "name": "salliyme/hello",
+  "description": "This is  hello test project.",
+  "require": {
+    "monolog/monolog": "1.0.*"
+  }
+}
