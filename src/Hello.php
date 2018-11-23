@@ -22,4 +22,9 @@ class Hello
     {
         echo 'Version:'.static::VERSION.PHP_EOL;
     }
+
+    public function go()
+    {
+        echo 'method::go()'.PHP_EOL;
+    }
 }
